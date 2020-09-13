@@ -1,0 +1,43 @@
+.gallery {
+  background: #adadad;
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.gallery .container h1 {
+  color: #83677b;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+.gallery .btnContainer {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery .btnContainer button {
+  width: 150px;
+  background: #83677b;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 30px;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.gallery .btnContainer button:hover {
+  background: #501b1d;
+}

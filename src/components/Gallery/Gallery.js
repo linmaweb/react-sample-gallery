@@ -18,7 +18,7 @@ const Gallery = ({
       <div className="container">
         {err ? (
           <h1>{err}</h1>
-        ) : length == 0 ? (
+        ) : length === 0 ? (
           <h1>No images found</h1>
         ) : (
           <>

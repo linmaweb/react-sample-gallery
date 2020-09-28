@@ -7,7 +7,7 @@ const Card = ({ gallery }) => {
     <>
       {gallery.map((img) => (
         <div className="card" key={img.id}>
-          <a href={img.largeImageURL} target="_blank">
+          <a href={img.largeImageURL} target="_blank" rel="noopener noreferrer">
             <div className="cardImgWrapper">
               <img src={img.webformatURL} alt="gallery" className="cardImg" />
             </div>
